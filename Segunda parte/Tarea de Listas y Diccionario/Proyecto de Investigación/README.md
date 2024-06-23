@@ -44,3 +44,15 @@ import numpy as np
 ``𝐴=[2,4,6,8,10]``
 Aquí, `𝐴(0)=2, 𝐴(1)=4, 𝐴(2)=6, 𝐴(3)=8, y 𝐴(4)=10`.
 En resumen, un arreglo unidimensional es una estructura ordenada y contigua de elementos del mismo tipo, accesible mediante índices que normalmente comienzan desde ``0``.
+
+- ### Suma de Vectores
+  - La suma de vectores consiste en sumar los elementos correspondientes de dos vectores para obtener un nuevo vector. Matemáticamente, si tenemos dos vectores ``𝑣1 y 𝑣2``, su suma es:``𝑣=𝑣1+𝑣2``
+   - ejemplo en python 
+   ```python 
+   # Definir dos vectores
+   v1 = np.array([0, 1, 1])
+   v2 = np.array([2, 2, 0])
+   # Sumar los dos vectores
+   s = v1 + v2
+  print(s)  # Salida: [2 3 1] 
+   ```
