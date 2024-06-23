@@ -133,6 +133,44 @@ Para trabajar con polinomios en NumPy, **primero se importa la biblioteca:**  ``
      3   2
      -1 x - 7 x - 4 x - 2
      ```
-
-
+- ### División de Polinomios
+  * ![divi](divip.png)
+    ```python
+      # Dividir los polinomios
+      d, r = np.polydiv(p, q)
+      print("\n División de los polinomios:")
+      print("Cociente:")
+      print(d)
+      print("Resto:")
+      print(r)
+      ```
+     **salida**
+     ```python 
+        División de los polinomios:
+        Cociente: 0
+        Resto:  2
+        2 x + 1 x + 2
+      ```
+- ### Raíces de un Polinomio
+    - ![raiz](raizp.png)
+      ```python 
+      # Definir un polinomio
+      p = np.poly1d([1, -6, 11, -6])
+      print("Polinomio:")
+      print(p)
+      # Calcular las raíces del polinomio
+      roots = np.roots(p)
+      print("\nRaíces del polinomio:")
+      print(roots)
+      ```
+    **salida**
+    - ```python
+      Polinomio:
+        3     2
+      1 x - 6 x + 11 x - 6
+      Raíces del polinomio:
+      [3. 2. 1.]
+      ```
+      
+      
 ​
