@@ -291,5 +291,9 @@ Para trabajar con polinomios en NumPy, **primero se importa la biblioteca:**  ``
            print("Porcentaje del presupuesto sobre las ventas proyectadas:", porcentaje_presupuesto)
 
           ```
-      **Resultado**
-       ![resultado](resultado.png)
+
+
+        **Resultado**
+
+
+         ![resultado](resultado.png)
