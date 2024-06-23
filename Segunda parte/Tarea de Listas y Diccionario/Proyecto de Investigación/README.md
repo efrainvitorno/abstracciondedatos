@@ -171,6 +171,42 @@ Para trabajar con polinomios en NumPy, **primero se importa la biblioteca:**  ``
       Raíces del polinomio:
       [3. 2. 1.]
       ```
+
       
-      
-​
+- ## Arreglos Bidimensionales
+   * Un arreglo bidimensional (también conocido como matriz) es una estructura de datos que consiste en una colección de elementos organizados en filas y columnas. Cada elemento puede ser identificado por dos índices: uno que representa la fila y otro que representa la columna. ``np.array([])``
+   - **Operacion con matrices**
+   - ## suma 
+   - ![suma](sumamt.png)
+      ```python
+      import numpy as np
+      A = np.array([[1, 2, 3], [4, 5, 6]])
+      B = np.array([[7, 8, 9], [10, 11, 12]])
+      C = np.add(A, B)
+      print("Suma de matrices:\n", C)
+     ```
+  - ## Multiplicación de Matrices
+      uso de ``np.dot``
+     ![multipli](multm.png)
+     ```python
+     A = np.array([[1, 2], [3, 4]])
+     B = np.array([[5, 6], [7, 8]])
+     C = np.dot(A, B)
+     print("Multiplicación de matrices:\n", C)
+     ```
+   - ## Transpuesta de una Matriz
+     ![trasmp](tramsp.png) 
+     uso de ``np.transpose``
+     ```python
+     A = np.array([[1, 2, 3], [4, 5, 6]])
+     AT = np.transpose(A)
+     print("Transpuesta de la matriz:\n", AT)
+     ```
+    - ## Inversa de una Matriz
+      ![invers](inversa.png)
+      uso de ``np.linalg.inv``
+      ```python
+      A = np.array([[1, 2], [3, 4]])
+      A_inv = np.linalg.inv(A)
+      print("Inversa de la matriz:\n", A_inv)
+      ```
