@@ -56,3 +56,70 @@ En resumen, un arreglo unidimensional es una estructura ordenada y contigua de e
    s = v1 + v2
   print(s)  # Salida: [2 3 1] 
    ```
+- ###  Producto Escalar de Vectores
+  - El producto escalar (o punto) de dos vectores es una operación que toma dos secuencias de números (vectores) y devuelve un solo número. Matemáticamente, para dos vectores 𝑣1 y 𝑣2:
+  ![escalar](productosc.png)
+  * Ejemplo python 
+  ```python
+  # Definir dos vectores
+  v1 = np.array([0, 1, 1])
+  v2 = np.array([2, 2, 1])
+
+  #  Efectuar el producto punto de los vectores
+  p = np.dot(v1, v2)
+  print(p)  # Salida: 3
+  ```
+- ### Producto Vectorial de Vectores
+  - ![produc](pvct.png)
+  - Ejemplo python 
+  ```python
+  # Definir dos vectores
+  v1 = np.array([3, 1, 1])
+  v2 = np.array([2, 2, 2])
+
+  # Efectuar el producto vectorial de los vectores
+  p = np.cross(v1, v2)
+  print(p)  # Salida: [ 0 -4  4]
+  ```
+- ## Polinomios
+  - NumPy proporciona herramientas para trabajar con polinomios mediante la clase `numpy.poly1d`. Esta clase permite definir, sumar, restar, multiplicar, dividir y encontrar las raíces de los polinomios.
+Para trabajar con polinomios en NumPy, **primero se importa la biblioteca:**  ``import numpy as np``
+  - ejemplo 
+  ```python
+  import numpy as np
+  # Definir el primer polinomio P(x) = 2x^2 + x + 2
+  p = np.poly1d([2, 1, 2])
+  # Definir el segundo polinomio Q(x) = x^3 + 9x^2 + 5x + 4
+  q = np.poly1d([1, 9, 5, 4])
+  print("Primer polinomio:")
+  print(p)
+  print("\nSegundo polinomio:")
+  print(q)
+  ```
+  - **salida**
+  ```python
+  Primer polinomio:
+   2
+  2 x + 1 x + 2
+  Segundo polinomio:
+   3     2
+  1 x + 9 x + 5 x + 4
+  ```
+- ### Suma de Polinomios
+  - ![](sumap.png)
+   - ```python
+      # Sumar los polinomios
+      s = np.polyadd(p, q)
+      print("\n Suma de los polinomios:")
+      print(s)
+     ```
+    - **Salida**
+      ```python
+      Suma de los polinomios:
+         3      2
+       1 x + 11 x + 6 x + 6
+      ````
+
+
+
+​
