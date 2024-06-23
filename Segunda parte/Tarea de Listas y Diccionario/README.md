@@ -1,4 +1,4 @@
-# Documentacion del Ejersicio
+# Documentacion del ejemplo
 ## Tarea de Listas y Diccionario
 ## **Nombre:** Efrain Vitorino Marin **Cod:** 160337
 ---
