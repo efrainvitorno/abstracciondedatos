@@ -223,4 +223,35 @@ Para trabajar con polinomios en NumPy, **primero se importa la biblioteca:**  ``
     Una empresa de chocolates en la ciudad de Cusco desea optimizar sus campañas de marketing para maximizar las ventas de sus productos. La empresa ha realizado diversas inversiones en publicidad en redes sociales, televisión y radio, además de realizar ventas tanto a través de entregas a domicilio como en tiendas físicas.
     ---
     * predecir las ventas futuras de chocolates en Cusco basándose en los datos históricos de ventas y gastos en campañas de marketing. Adicionalmente, se quiere calcular el presupuesto total de marketing y determinar qué porcentaje representa dicho presupuesto respecto a las ventas proyectadas.
+     - **datos historicos**
+      ![datos](datoh.png)
+     * ## **Solucion**
+        **Modelo Estimado:**
+         El modelo ajustado podría tener la siguiente forma:
+         ``𝑌=800+1.2𝑋1+1.5𝑋2+1.1𝑋3+2.5𝑋4+1.8𝑋5``
 
+        **Proyección:**
+         Para proyectar las ventas del próximo mes se introducen los siguientes valores proyectados:
+         - Redes Sociales (X1): 3500 dólares.
+         - TV (X2): 3200 dólares.
+         - Radio (X3): 1800 dólares.
+         - Deliveries (X4): 300 entregas.
+         - Tienda Física (X5): 3500 ventas.
+
+        **Sustituyendo en el modelo** 
+
+         ``Y=800+1.2(3500)+1.5(3200)+1.1(1800)+2.5(300)+1.8(3500)``
+
+         ``𝑌=800+4200+4800+1980+750+6300``
+         ``𝑌=18830``
+
+        **Cálculo del Presupuesto de Marketing y Porcentaje:**
+          - Presupuesto Total de Marketing:
+
+            Presupuesto ``Total=3500+3200+1800+300+3500=12300`` dolares
+
+
+          - Porcentaje del Presupuesto sobre las Ventas Proyectadas:
+            Porcentaje 
+            
+            ``Presupuesto=(12300/18830)×100≈65.3%``
