@@ -119,7 +119,20 @@ Para trabajar con polinomios en NumPy, **primero se importa la biblioteca:**  ``
          3      2
        1 x + 11 x + 6 x + 6
       ````
-
+- ### Resta de Polinomios
+  * ![resta](restap.png)
+  * ```python
+    # Restar los polinomios
+    r = np.polysub(p, q)
+    print("\nResta de los polinomios:")
+    print(r)
+    ```
+  * **salida**
+    ```python
+     Resta de los polinomios:
+     3   2
+     -1 x - 7 x - 4 x - 2
+     ```
 
 
 ​
