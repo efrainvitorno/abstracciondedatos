@@ -10,3 +10,8 @@
  - profesora: **Mgt. Nila Zonia Acurio Usca**
  - Alumno: **Efrain Vitorino Marin** cod: **160337**
  # Tema: Introducción a Numpy
+   ![numpy](numpy.png)
+      - La clase de objetos array
+Un array es una estructura de datos de un mismo tipo organizada en forma de tabla o cuadrícula de distintas dimensiones.
+
+Las dimensiones de un array también se conocen como ejes.
