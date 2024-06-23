@@ -285,10 +285,10 @@ Para trabajar con polinomios en NumPy, **primero se importa la biblioteca:**  ``
            # Calcular el porcentaje del presupuesto en relación con las ventas proyectadas
            porcentaje_presupuesto = (presupuesto_marketing / Y_pred[0]) * 100
 
-          # Resultados
-          print("Ventas proyectadas:", Y_pred[0])
-          print("Presupuesto de marketing proyectado:", presupuesto_marketing)
-          print("Porcentaje del presupuesto sobre las ventas proyectadas:", porcentaje_presupuesto)
+           # Resultados
+           print("Ventas proyectadas:", Y_pred[0])
+           print("Presupuesto de marketing proyectado:", presupuesto_marketing)
+           print("Porcentaje del presupuesto sobre las ventas proyectadas:", porcentaje_presupuesto)
 
           ```
       **Resultado**
