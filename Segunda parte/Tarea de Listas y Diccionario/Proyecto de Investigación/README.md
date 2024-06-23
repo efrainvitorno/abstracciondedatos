@@ -38,9 +38,9 @@ import numpy as np
 ## Arreglos unidimensionales
 - un arreglo unidimensional se puede definir como una función que asigna un número entero dentro de un rango específico a cada elemento del arreglo. Formalmente, si tenemos un arreglo A de longitud 𝑛, podemos definirlo como:
   - `A:{0,1,2,…,n−1}→T ` donde: `{0,1,2,…,n−1}` es el conjunto de índices del arreglo.
-  - 𝑇 es el tipo de los elementos almacenados en el arreglo (por ejemplo, números enteros, flotantes, caracteres, etc.). 𝐴(𝑖) representa el elemento el arreglo en la posición 𝑖.
+  - ``𝑇`` es el tipo de los elementos almacenados en el arreglo (por ejemplo, números enteros, flotantes, caracteres, etc.). ``𝐴(𝑖)`` representa el elemento el arreglo en la posición 𝑖.
   Ejemplo Si 
-𝐴 es un arreglo de enteros con 𝑛=5, podríamos tener:
-𝐴=[2,4,6,8,10]
+``𝐴`` es un arreglo de enteros con 𝑛=5, podríamos tener:
+``𝐴=[2,4,6,8,10]``
 Aquí, `𝐴(0)=2, 𝐴(1)=4, 𝐴(2)=6, 𝐴(3)=8, y 𝐴(4)=10`.
-En resumen, un arreglo unidimensional es una estructura ordenada y contigua de elementos del mismo tipo, accesible mediante índices que normalmente comienzan desde 0.
+En resumen, un arreglo unidimensional es una estructura ordenada y contigua de elementos del mismo tipo, accesible mediante índices que normalmente comienzan desde ``0``.
