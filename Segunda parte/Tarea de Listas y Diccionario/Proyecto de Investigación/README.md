@@ -211,3 +211,15 @@ Para trabajar con polinomios en NumPy, **primero se importa la biblioteca:**  ``
       print("Inversa de la matriz:\n", A_inv)
       ```
 ##  Aplicación: Regresión Lineal Múltiple
+  - **Introducción a la Regresión Lineal Múltiple:**
+    La regresión lineal múltiple es una extensión de la regresión lineal simple, que se utiliza cuando tenemos más de una variable independiente que afecta a la variable dependiente.
+    * Fórmula general: ``𝑌=𝛽0+𝛽1𝑋+𝛽2𝑋2+…+𝛽𝑛𝑋𝑛+𝜖``
+    * ``𝑌`` es la variable dependiente.
+    * ``𝑋1,𝑋2,...,𝑋𝑛``  son las variables independientes.
+    * ``𝛽0``  es el término constante.
+    * ``𝛽1,𝛽2,...,𝛽𝑛`` son los coeficientes de las variables independientes.
+    * ``𝜖`` es el término de error.
+    # Ejemplo de aplicacion 
+    Una empresa de chocolates en la ciudad de Cusco desea optimizar sus campañas de marketing para maximizar las ventas de sus productos. La empresa ha realizado diversas inversiones en publicidad en redes sociales, televisión y radio, además de realizar ventas tanto a través de entregas a domicilio como en tiendas físicas.
+    * predecir las ventas futuras de chocolates en Cusco basándose en los datos históricos de ventas y gastos en campañas de marketing. Adicionalmente, se quiere calcular el presupuesto total de marketing y determinar qué porcentaje representa dicho presupuesto respecto a las ventas proyectadas.
+    
