@@ -210,3 +210,4 @@ Para trabajar con polinomios en NumPy, **primero se importa la biblioteca:**  ``
       A_inv = np.linalg.inv(A)
       print("Inversa de la matriz:\n", A_inv)
       ```
+##  Aplicación: Regresión Lineal Múltiple
