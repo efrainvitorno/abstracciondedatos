@@ -221,5 +221,6 @@ Para trabajar con polinomios en NumPy, **primero se importa la biblioteca:**  ``
     * ``𝜖`` es el término de error.
     # Ejemplo de aplicacion 
     Una empresa de chocolates en la ciudad de Cusco desea optimizar sus campañas de marketing para maximizar las ventas de sus productos. La empresa ha realizado diversas inversiones en publicidad en redes sociales, televisión y radio, además de realizar ventas tanto a través de entregas a domicilio como en tiendas físicas.
+    ---
     * predecir las ventas futuras de chocolates en Cusco basándose en los datos históricos de ventas y gastos en campañas de marketing. Adicionalmente, se quiere calcular el presupuesto total de marketing y determinar qué porcentaje representa dicho presupuesto respecto a las ventas proyectadas.
-    
+
